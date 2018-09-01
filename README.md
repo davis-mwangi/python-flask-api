@@ -1,1 +1,1 @@
-# Flask Api to Store Items,Stores and Authenticate Users
+# Flask Api to acces items,Stores and Authenticate Users
