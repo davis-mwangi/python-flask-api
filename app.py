@@ -11,10 +11,7 @@ app = Flask(__name__)
 app.secret_key = 'David'
 api = Api(app)
 
-#create tables automatically
-@app.before_first_request
-def create_tables():
-	db.create_all()
+
 
 #change default /auth to custom /login URL 
 app.config['JWT_AUTH_URL_RULE'] ='/login' 
